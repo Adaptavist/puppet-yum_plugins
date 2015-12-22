@@ -1,0 +1,10 @@
+fixtures:
+  repositories:
+    puppi:
+      repo: "https://github.com/Adaptavist/puppet-puppi"
+    yum:
+      repo: "https://github.com/Adaptavist/puppet-yum"
+    stdlib:
+      repo: "https://github.com/Adaptavist/puppet-stdlib"
+  symlinks:
+    yum_plugins: "#{source_dir}"
