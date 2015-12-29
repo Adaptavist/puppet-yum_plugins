@@ -7,9 +7,9 @@ class yum_plugins(
     $merge_plugins = 'true',
     ) {
 
-    if ($host != undef) {
+    if ($::host != undef) {
         #if so validate the hash
-        validate_hash($host)
+        validate_hash($::host)
         #if a host level "merge_plugins" flag has been set use it, otherwise use the global flag
         $real_merge_plugins = $host['yum_plugins::merge_plugins']? {
             default => $host['yum_plugins::merge_plugins'],
