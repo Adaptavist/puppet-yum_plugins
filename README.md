@@ -1,4 +1,5 @@
 # Yum Plugins Module
+[![Build Status](https://travis-ci.org/Adaptavist/puppet-yum_plugins.svg?branch=master)](https://travis-ci.org/Adaptavist/puppet-yum_plugins)
 
 ## Overview
 

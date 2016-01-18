@@ -1,5 +1,5 @@
 name 'adaptavist-yum_plugins'
-version '0.1.4'
+version '0.1.5'
 source 'https://github.com/Adaptavist/puppet-yum_plugins.git'
 author 'adaptavist'
 summary 'yum_plugins puppet module' 
